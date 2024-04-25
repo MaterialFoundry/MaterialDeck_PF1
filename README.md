@@ -1,0 +1,1 @@
+This module adds support for 'Pathfinder 1' to [Material Deck](https://github.com/MaterialFoundry/MaterialDeck).
