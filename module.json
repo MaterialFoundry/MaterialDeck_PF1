@@ -2,7 +2,7 @@
     "id": "materialdeck-pf1",
     "title": "Material Deck - Pathfinder 1",
     "description": "This module adds support for 'Pathfinder 1' to Material Deck.",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "authors": [
         {
             "name": "CDeenen",
@@ -21,8 +21,8 @@
             "type": "module",
             "manifest": "https://github.com/MaterialFoundry/MaterialDeck/releases/latest/download/module.json",
             "compatibility": {
-                "minimum": "1.7.0",
-                "verified": "1.7.0"
+                "minimum": "1.7.1",
+                "verified": "1.7.1"
             }
         }]
     },
@@ -33,5 +33,5 @@
     "manifestPlusVersion": "1.1.0",
     "url": "https://github.com/MaterialFoundry/MaterialDeck_PF1",
     "manifest": "https://github.com/MaterialFoundry/MaterialDeck_PF1/releases/latest/download/module.json",
-    "download": "https://github.com/MaterialFoundry/MaterialDeck_PF1/releases/download/v1.0.0/module.zip"
+    "download": "https://github.com/MaterialFoundry/MaterialDeck_PF1/releases/download/v1.0.1/module.zip"
 }
