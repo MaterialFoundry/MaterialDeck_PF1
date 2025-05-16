@@ -1,0 +1,5 @@
+All images licenced under CC BY 3.0. From game-icons.net
+
+fort.png: https://game-icons.net/1x1/delapouite/rock-golem.html
+ref.png: https://game-icons.net/1x1/lorc/dodging.html
+will.png: https://game-icons.net/1x1/lorc/meditation.html
