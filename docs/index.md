@@ -12,9 +12,11 @@ The Material Deck PF1 system module adds PF1-dependent features to Material Deck
 
 
 ## Combatibility
-
-<b>Foundry VTT</b>: v12-v13<br>
+Tested on:<br>
+<b>Foundry VTT</b>: v13-v14<br>
 <b>Pathfinder 1</b>: v11
+
+Requires Material Deck v2.2.0+.
 
 ## Feedback & Issues
 If you have any suggestions or bugs to report, feel free to:

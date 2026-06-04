@@ -386,12 +386,13 @@ export function getSpellTypes(includeCantrips=false) {
 function getSpellbook(actor, settings) {
     if (!actor) return;
     let spells = Array.from(actor.items).filter(i=>i.type === 'spell');
-
     const filter = settings.selection.filter;
 
     if (settings.mode !== 'any') spells = spells.filter(s => s.system.level == settings.mode.replace('spell', ''))
-    for (let k of Object.keys(CONFIG.PF1.spellLevels) ) {   
-        if (!filter.preparation[k]) spells = spells.filter(s => s.system.preparation.mode != k)
+    if (filter) {
+        for (let k of Object.keys(CONFIG.PF1.spellLevels) ) {   
+            if (!filter?.preparation[k]) spells = spells.filter(s => s.system.preparation.mode && s.system.preparation.mode != k)
+        }
     }
     
     if (settings.selection.order === 'charSheet') {
